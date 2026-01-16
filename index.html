@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | CS Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#top">YourName</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+
+    <!-- Mobile menu -->
+    <nav class="mobile-nav container" id="mobileNav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main id="top" class="hero">
+    <div class="container hero-inner">
+      <div>
+        <p class="tag">Computer Science Student • AI + Data + App Development</p>
+        <h1>Hi, I’m <span class="accent">Your Name</span>.</h1>
+        <p class="subtitle">
+          I build clean, practical software projects and I’m currently working on an AI-assisted learning app
+          that uses learning analytics to personalize practice.
+        </p>
+
+        <div class="btn-row">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="assets/resume.pdf" target="_blank" rel="noopener">Resume</a>
+          <a class="btn" href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Currently building</h3>
+        <ul>
+          <li><b>AI Learning Buddy</b> — adaptive quizzes + learning insights</li>
+          <li>Firebase-backed question bank (Admin mode)</li>
+          <li>Progress dashboard (accuracy, speed, weak topics)</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p>
+        I’m a CS student focused on building projects that combine software development with data-driven thinking.
+        I enjoy turning ideas into real apps, tracking meaningful metrics, and improving user experience based on results.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2>Skills</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Languages</h3>
+          <p>Python, JavaScript, Dart, Java</p>
+        </div>
+        <div class="card">
+          <h3>Frameworks</h3>
+          <p>Flutter, (Add later: React / Node)</p>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <p>Git/GitHub, Firebase, VS Code</p>
+        </div>
+        <div class="card">
+          <h3>Concepts</h3>
+          <p>OOP, DSA basics, Data Analytics, Adaptive Logic</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="grid">
+        <article class="card project">
+          <h3>AI Learning Buddy (In Progress)</h3>
+          <p class="muted">Flutter • Firebase • Learning Analytics</p>
+          <p>
+            A kid-friendly learning app that adapts difficulty based on performance and shows progress insights
+            like accuracy, speed, and weak topics.
+          </p>
+          <div class="btn-row">
+            <a class="btn" href="https://github.com/yourusername/ai-learning-buddy" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="#" aria-disabled="true">Demo (soon)</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h3>Expense Tracker (Demo)</h3>
+          <p class="muted">Python • (or Flutter) • Data Cleaning</p>
+          <p>
+            Tracks expenses and categorizes spending. Includes basic summaries and charts.
+          </p>
+          <div class="btn-row">
+            <a class="btn" href="https://github.com/yourusername/expense-tracker" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h3>Support Toolkit (Mini Project)</h3>
+          <p class="muted">JavaScript • HTML • CSS</p>
+          <p>
+            Small utilities like password checklist, ticket notes template, and quick troubleshooting flows.
+          </p>
+          <div class="btn-row">
+            <a class="btn" href="https://github.com/yourusername/support-toolkit" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="muted">Best way to reach me:</p>
+
+      <div class="btn-row">
+        <a class="btn" href="mailto:youremail@example.com">Email</a>
+        <a class="btn" href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+      </div>
+
+      <p class="footer muted">© <span id="year"></span> Your Name</p>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
